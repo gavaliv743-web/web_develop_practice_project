@@ -1,0 +1,47 @@
+div{
+    height:100px;
+    width: 100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+
+    
+}#box1{
+    /* z -index not aplicable*/
+    position:static;/* fixed size no changes */
+    top:20px;
+    background-image:url(gorila.jpeg);
+    /* adjust image perfectily*/
+    background-size:cover;
+}#box2{
+    position:relative;
+    top:20px;
+    background-color:chartreuse;
+    left:50px;
+    /* z-index means 1 means front,-1 means back side any no alloww */
+    z-index:1;
+}#box3{
+    /*position is ancestor mean closest position parent loop */
+    position:absolute;
+    top:125px;
+    background-color:brown;
+    left:20px;
+
+}#box4{
+     /* start from browser page  */
+    position:fixed;
+    top: 250px;
+    right:20px;
+    background-image:url(tiger.avif);
+    background-size:cover;
+
+}#box5{
+    /* adjust the position */
+    position:stickly;
+    top:100px;
+
+}body{
+    background-image:url(tiger.avif);
+    background-size:cover; /*auto or cantain  option */
+    /* background: no-repeat; */
+}

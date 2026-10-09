@@ -1,0 +1,64 @@
+#body{
+    text-align:center;
+}
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px black solid;
+}
+#container{
+    height:600px;
+    width:900px;
+    display:flex;
+    /* flexbox adjust the size in container */
+    /* there are four type row,row-riverse,column ,colunm-riverse */
+    flex-direction:row; /* all below same column */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+    /* justify-content:flex-start;         same tosame row */
+    /* justify-content:flex-end;           same as row but rightside */
+    /* justify-content:center; */
+    /* justify-content: space-around;         split first & last space is less */
+    /* justify-content:space-between;     all space  equall 1 &  last are touches the boundary */
+    justify-content:space-evenly;   /* all space are equall */
+    /* flex-wrap:wrap;       means adjust in next line*/
+    /* align-items:center; */
+    align-items:flex-start;      /*flex-end */
+    /* align-content:center; */  /* main axis along mwans x axs*/
+    /* align-content:flex-end;   BELOW       */
+}
+
+#box1{
+    background-color:blue;
+    height:200px;
+    flex-shrink: 50px;  /* for  width  decreases */
+}
+#box2{
+   background-color:blueviolet;
+   flex-grow:5; /* width increase */
+}
+#box3{
+   background-color:brown;
+}
+#box4{
+   background-color:cadetblue;
+}#box5{
+background-color:chartreuse;
+}h1{
+    text-align:center;
+}
+.outer{
+    height:500px;
+    width:500px;
+    background-color:burlywood;
+    display:flex;
+    justify-content:center; /* for horizontal adjust */
+    align-items:center;  /* for horizontal adjust */
+
+}.inner{
+    height:200px;
+    width:200px;
+    background-color:brown;
+}

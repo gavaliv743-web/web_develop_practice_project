@@ -1,0 +1,24 @@
+ /* #box1{this is parent */
+    /* height:20; */
+    /* width:10; */
+    /* background-color:burlywood; */
+    /* font-size:20px; */
+   /* width:10;viewport width */
+/* } */
+/* #box2{this is the child */
+    /* height:50px; */
+    /* width:10%; */
+    /* background-color:brown; */
+    /* font-size:2em;means double of parent size only for font size */
+    /* width:5em;font size width */
+    /* width:2em; size of root element */
+    /* height:10;vewport height(page height) */
+/* } */
+
+#div{
+    background-color:pink;
+    height:100x;
+    width:100x;
+    display:inline-block;
+
+}

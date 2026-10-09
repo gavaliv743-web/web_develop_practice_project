@@ -1,0 +1,35 @@
+div{
+    height:400px;
+    width:400px;
+    background-color:aqua;
+    transition-property:all;
+    transition-duration:2s;
+    /* transition-timing-function:ease-in; */
+    transition-timing-function:steps(5);
+    transition-delay:2s; /* how many time to change transition */
+    position:relative;
+    top:100px;
+    left:100px;
+    /* for rotation */
+    /* transform:rotate(45deg); */
+    /* scale means size increases */
+    /* transform:scale(0.5); */
+    /* transform:scale(X,Y,Z) */
+    /* transform:scale(1,2); */
+    transition:all 2s ease-in;
+
+}
+div:hover{ /* curser move on*/
+    /* background-color:red; */
+    /* font-size:50px; */
+    /* color:yellow; */
+    /* transform:scale(X,Y,Z) */
+    /* transform:scale(0.5,1); */
+    /* transltate move object */
+    /* transform: translateX(250px); we can use -123 */
+    /* skew is trace two side corner */
+    transform: skew(90deg);
+}
+div:active{ /* press then */
+    background-color:Green;
+}

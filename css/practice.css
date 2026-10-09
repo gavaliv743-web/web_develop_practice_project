@@ -1,0 +1,84 @@
+#box1{
+    height:100px;
+    background-color:purple;
+    width:200px;
+    border-width:10px;
+    border-color:black;
+    /* border-style:solid/dashed/dotted/double; */
+    border-top-color:orange;
+    border-style:solid;
+    border-left-style:dotted;
+    border-top-right-radius:12px;
+    border-top-left-radius:30px;
+    border-radius:100px
+}
+p{
+    height:100px;
+    width:100px;
+    text-align:right;
+    border:10px solid  green; 
+    /* border-radius:50% circle form */
+    /* padding-top: 50px; */
+    /* padding-left: 50px; */
+    /* padding-right:50px; */
+    /* padding-bottom:50px; */
+    /* another methode to padding */
+    padding:50px; /* all side padding */
+    padding:12px 34px 50px 90px; /* same sa above code but side clockwise direction start from top */
+    /* margin-left:20px; */
+    margin:50px;
+
+  }
+  /* for all website color changes*{ */ 
+    /* color:white; */
+/* } */
+#box2{
+    height:100px;
+    width:100px;
+    border:12px solid black;
+    border-radius: 50%;
+    background-color:rgb(218, 16, 50)
+
+}#box3{
+    color:white;
+    height:60px;
+    background-color:black;
+    font-size:27;
+
+}
+*{
+    padding: 0;/* reset the space*/
+    margin: 0;
+}
+#btn{
+    background-color:rgb(243, 150, 10)
+}
+a{
+    margin-right:75px;
+}
+#abc{
+    background-color:pink;
+    display:inline;/* below line print continue to this line ,not occupied all Space*/
+}
+#def{/* block is occcupied all space print next line */
+    button:block;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    margin:25px;
+    padding:25;
+    display:inline-block;/* similar to the inline but set margin and padding*/
+    /* Display:none       remove */
+    /* visibility:hidden;    remove but space not delete */
+}
+#rgba{
+    background-color: rgba(255,0,0,0.5); /* a for alpha color (range 0-1)*/
+}
+.content{
+    height:200px;
+    color:white;
+    border:23px black solid;
+
+}
